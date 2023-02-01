@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    animation: flash 1s ease-in-outinfinite alternate;
+    min-height: 100vh;
+}
+
+body {
+    border: 1px solid red;
+}
+header {
+    border: 1px solid blue;
+    height: 400px;
+}
+main {
+    border: 1px solid green;
+    height:  800px;
+}
+
+
+header {
+    background-image: url(/images.jpg);
+}
+
+@keyframes flash {
+    0% {
+background-color: beige;
+    }
+    25% {
+background-color: greenyellow;
+    }
+    50% {
+background-color: brown;
+    }
+    75% {
+background-color: palevioletred;
+    }
+    100% {
+background-color: orange;
+    }
+}

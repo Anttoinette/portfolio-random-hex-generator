@@ -1,0 +1,66 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@500&family=Montserrat:ital,wght@1,700&display=swap'); */
+
+h1 > button {font-family: 'Clicker Script', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;}
+
+body {
+    background-color: wheat;
+    height: 100vh;
+    /* animation: flash 1s ease-in-outinfinite alternate; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayBox, button {
+border: 3px solid #E3E3E347;
+}
+
+#displayBox {
+    width: 40;
+    background-color: #f4f5f694;
+    padding: 40px;
+    border-radius: 14px;
+}
+
+header > h1 {
+
+    font-size: 4rem;
+    text-align: center;
+    filter: drop-shadow(0, 0, 1.1rem #f5810d);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-size: 2.0rem;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 14px;
+    width: 80%;
+    border: 3px solid rgba(2, 1, 0, 0.507);
+    margin: 0 auto;
+}
+
+/* 
+@keyframes flash {
+    0% {
+background-color: beige;
+    }
+    25% {
+background-color: greenyellow;
+    }
+    50% {
+background-color: brown;
+    }
+    75% {
+background-color: palevioletred;
+    }
+    100% {
+background-color: orange;
+    }
+} */
